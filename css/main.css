@@ -1,0 +1,675 @@
+/***********
+    Body
+***********/
+body {
+  width: 100%;
+  min-height: 100vh;
+  background:linear-gradient(#dee2e8, #5194ff);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header{
+  display: inline-block;
+  background-color: #003996;
+  width: 100%;
+  height: 100%;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 3px;
+  border-bottom-style: ridge;
+  border-bottom-color: skyblue;
+  border-bottom-width: 3px;
+}
+
+a.title,
+a.title:visited,
+.title{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-weight:bold;
+  color: black;
+  font-family: "Lucida Bright", Georgia, serif;
+}
+
+
+.logoheader{
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.logoimg{
+  background-color: transparent;
+  margin-top: 0px;
+  text-align: center;
+  height: 10;
+}
+
+.textone {
+  margin: 0 auto;
+  line-height:1.6;
+  width: 100%;
+  text-decoration: bold;
+  font-family: "Lucida Bright", Georgia, serif;
+}
+
+.texttwo{
+  border: solid black 1px;
+  padding: 3%;
+  background-color: #dee2e8;
+}
+
+.map {
+ width: 100%;
+ height: 450px;;
+ text-align: center;
+}
+
+iframe{
+  width: 100%;
+}
+
+.heading {
+  width: 100%;
+  font-weight: bolder;
+  text-decoration:underline;
+  font-size:35px;
+  font-family: "Lucida Bright", Georgia, serif;  
+}
+
+.coachprofiles{
+  width: 100%;
+  margin: 0;
+}
+
+.wrap{
+  flex: 1;
+}
+
+
+h3{
+  font-size: 20px;  
+}
+
+.contact{
+  margin: 0 auto;
+  text-align: center;
+}
+.h1contact{
+  width: 95%;
+  margin: 3% auto;
+  text-align: center;
+  font-family: "Lucida Bright", Georgia, serif; 
+}
+
+.resPara{
+  width: 95%;
+  text-align: justify;
+  margin: 0 auto;
+  font-family: "Lucida Bright", Georgia, serif; 
+}
+
+.cutsDiv{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.cuts{
+  width: 100%;
+  height: 325px;
+}
+.direction{
+  padding-left:30%;
+  padding-right:20%;
+  font-family: "Lucida Bright", Georgia, serif; 
+}
+.goal{
+  line-height: 1.8;
+}
+
+.collegeswimming{
+  width: 90%;
+  height: 300px;
+  margin: 2% 5%;
+  display: inline-block;
+  text-align: center;
+}
+
+/***********
+  Pictures
+***********/
+
+.video{
+  width: 100%;
+}
+  
+.timelapse{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  z-index:9999;
+}
+
+
+.picpage {
+  width: 28%;
+  margin: 1%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+
+/***********
+  Footer
+***********/
+
+.footer {
+  background-color: #003996;
+  color: /*#e0dede*/ white;
+  margin: 0 auto;
+  width: 100%;
+  border-top-style: ridge;
+  border-top-color: #186ef9;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  margin-top:20px;
+}
+
+.grid {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; 
+  column-count: 4;
+  list-style-type: none; 
+  line-height: 1.5em;
+}
+
+.footerInfo{
+  margin-top: 1%;
+  width: 100%;
+  font-size: .5em;
+  text-align: center;
+}
+
+.footerInfo h2{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 2.5%;
+}
+
+/***********
+    Links
+***********/
+
+a.links,
+a.links:visited{
+  float: right;
+  padding: 4px;
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+}
+
+.home{
+  font-size: 11px;
+  float: left;
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+a.links:hover,
+a.home:hover{
+  color: black;
+  background-color:#7f9ac6;
+  border-style: ridge;
+  border-width: 2px;
+  border-color: black;
+  margin: 0;
+}
+
+a.links:active,
+a.home:active{
+  color: #7f9ac6;
+  background-color: #7f9ac6;
+}
+
+
+.selected{
+  background-color: #7e96bf;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: navy;
+}
+
+.footerlinks {
+  /*color: #c6c4c4;*/
+  color: white;
+  margin: 0 1%;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.usaswim,
+.usaswim:visited{
+  color: blue;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.15em;
+}
+
+.usaswim:hover{
+  font-size: 1.25em;
+}
+
+.footerInfo a{
+  /*color:#c6c4c4;*/
+  color: white;
+  text-decoration: none;
+}
+
+/***********
+ SlideShow
+***********/
+
+.slideshowimg {
+  width: 100%;
+}
+
+.slideshow{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+.slideshow:focus{
+ outline: 0;
+}
+.slideshow figure{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.slideshow figure:first-child{
+  position: relative;
+}
+.slideshow figure img{
+  opacity: 0;
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+  position: relative;
+}
+.slideshow .slideshow-show {
+  z-index: 3;
+}
+.slideshow .slideshow-show img{
+  opacity: 1;
+}
+
+.slideshow figcaption{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  bottom: .75em;
+  right: .35em;
+  padding: .25em;
+  color: #fff;
+  background: #000;
+  background: rgba(0,0,0, .25);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+}
+.slideshow .slideshow-show figcaption{
+  z-index: 2;
+  opacity: 1;
+}
+.slideshow figcaption a{
+  color: #fff;    
+}
+.slideshow-next, .slideshow-prev{
+  color: #fff;
+  position: absolute;
+  background: #000;
+  background: rgba(0,0,0, .6);
+  top: 50%;
+  z-index: 4;
+  font-size: 2em;
+  margin-top: -1.2em;
+  opacity: .5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.slideshow-next:hover, .slideshow-prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+.slideshow-next{
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.slideshow-prev{
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+
+/**********
+    Line
+**********/
+
+.line{
+    width:75%;
+    height:3px;
+    background:black;
+}
+
+
+/***************
+Coaches Profiles
+****************/
+
+.profileCards{
+  width: 100%;
+  text-align: center;
+}
+
+.card{
+  width: 80%;
+  margin: 2% auto;
+  display: block;
+  color: darkblue;
+  border-color: black;
+  border-style: ridge;
+  background: linear-gradient(#5194ff, #82b2ff);
+  text-align: center;
+}
+
+
+.profile{
+  text-align: center;
+}
+
+.coachInfo{
+  width: 90%;
+  font-size: 1em;
+  text-align: center;
+  margin: 1% auto;
+}
+
+.socialMedia{
+  width: 20%;
+}
+
+/**********
+  Contact
+**********/
+
+.flippic{
+	display:inline-block;
+	background:#16161a;
+	width:100px;
+	height:100px;
+	cursor: pointer;
+	perspective: 200px;
+	transition:background 0.2s ease-out;
+}
+
+.box{
+	position:absolute;
+
+	perspective-origin: 50px 50px;
+	transform-origin: 50px 50px;
+	transition:transform 0.2s ease-out;
+	transform-style: preserve-3d;
+}
+
+.flippic:hover{
+	background:#118bdc;
+}
+
+.flippic:hover .box{
+	transform: rotateY(-90deg);
+}
+
+/***********
+   PHP Form
+***********/
+
+.joinform{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+input {
+  width: 75%;
+}
+
+.submit{
+  background-color: #009916;
+  width: 30%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5%;
+  color: yellow;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+
+/***********************************************************
+************************************************************
+
+            Media Query Min-Width 560px 
+
+************************************************************
+***********************************************************/
+
+@media screen and (min-width: 560px) {
+  
+  a.links,
+  a.links:visited,
+  .home{
+    font-size: 20px;
+    padding: 3px;
+  }
+  
+  .slideshow{
+    position: relative;
+    margin: 0 auto;
+    width: 47%
+  
+  }
+  
+  .timelapse{
+    width: 75%;
+  }
+  
+  .textone{
+    width: 75%;
+  }
+  
+  .heading{
+    margin-left: 10%;
+    width: 75%;
+  }
+  
+  .grid{
+    column-count: 8;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 2.5% 0;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .map {
+    width: 100%;
+    height: 450px;;
+    text-align: center;
+  }
+
+  iframe{
+    width: 75%;
+  }
+  
+  .resPara{
+    width: 80%;
+  }
+  
+  .cuts{
+    width: 75%;
+    height: 325px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input{
+    width: 50%;
+  }
+  
+  .submit{
+    width: 25%;
+  }
+  
+  .footerInfo{
+    margin: 0;
+    font-size: .7em;
+  }
+  
+  .profileCards{
+    width: 100%;
+    text-align: center;
+  }
+
+  .card{
+    width: 40%;
+    display: inline-block;
+  }
+
+
+  .profile{
+    text-align: center;
+  }
+
+  .coachInfo{
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    margin: 1% auto;
+  }
+
+  .socialMedia{
+    width: 20%;
+  }
+  
+  .collegeswimming{
+    width: 47%;
+    height: 500px;
+    margin: 2% 1%;
+  }
+  
+  .picpage{
+    margin: 1% 2%;
+  }
+  
+}
+
+
+
+/***********************************************************
+************************************************************
+
+            Media Query Min-Width 820px 
+
+************************************************************
+***********************************************************/
+
+@media screen and (min-width: 820px) {
+  
+  a.links,
+  a.links:visited,
+  .home{
+    font-size: 25px;
+    padding: 6px;
+  }
+  
+  .slideshow{
+    position: relative;
+    margin: 0 auto;
+    width: 53%
+  }
+
+  .footerlinks {
+    margin: 5px;
+    font-size: 1.5em;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  .timelapse{
+    width: 50%;
+  }
+  
+  iframe{
+    width: 50%;
+  }
+  
+  .resPara{
+    width: 60%;
+  }
+  
+  .cuts{
+    width: 60%;
+    height: 400px;
+  }
+  
+  input{
+    width: 35%;
+  }
+  
+  .submit{
+    width: 20%;
+  }
+  
+  .profileCards{
+    width: 100%;
+    text-align: center;
+  }
+
+  .card{
+    width: 30%;
+    height: 400px;
+  }
+
+  .coachInfo{
+    width: 70%;
+  }
+
+  
+}
+
+
